@@ -1,21 +1,35 @@
+import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-//       작은 크기의 타입이 큰 크기의 타입과 계산될때,
-//        자동으로 큰크기의 타입으로 형변환 한다.
+        Scanner sc = new Scanner(System.in);
+        String cookName = sc.nextLine();
+        float score = sc.nextFloat();
+        String recipe1 = sc.nextLine();
+        String recipe2 = sc.nextLine();
+        String recipe3 = sc.nextLine();
+        String recipe4 = sc.nextLine();
+        String recipe5 = sc.nextLine();
+        String recipe6 = sc.nextLine();
+        String recipe7 = sc.nextLine();
+        String recipe8 = sc.nextLine();
+        String recipe9 = sc.nextLine();
+        String recipe10 = sc.nextLine();
 
-        int intNUmber = 10;
-        double doubleNumber = 5.5;
-        double result = intNUmber + doubleNumber;
+        int scoreNumber = (int)score;
+        double percentage = (double) scoreNumber* 100 / 5;
 
-        System.out.println(result);
-
-        int iResult = intNUmber / 4;
-
-        double dResult = intNUmber / 4.0;
-
-        System.out.println(iResult +" / "+ dResult);
+        System.out.println("[ " + cookName + " ]");
+        System.out.println("별점 : " + scoreNumber + " (" + percentage + "%)");
+        System.out.println("1. " + recipe1);
+        System.out.println("2. " + recipe2);
+        System.out.println("3. " + recipe3);
+        System.out.println("4. " + recipe4);
+        System.out.println("5. " + recipe5);
+        System.out.println("6. " + recipe6);
+        System.out.println("7. " + recipe7);
+        System.out.println("8. " + recipe8);
+        System.out.println("9. " + recipe9);
+        System.out.println("10. " + recipe10);
     }
-
 }
