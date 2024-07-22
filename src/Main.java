@@ -12,6 +12,14 @@ public class Main {
         char charAlphabet = 'A';
         intNumber = charAlphabet;
         System.out.println(intNumber);
+
+        intNumber = 100;
+        long longNumber = intNumber;
+        System.out.println(longNumber);
+
+        intNumber = 200;
+        double doubleNumber = intNumber;
+        System.out.println(doubleNumber);
     }
 
 }
