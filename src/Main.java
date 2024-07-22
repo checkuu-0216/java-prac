@@ -2,15 +2,16 @@
 public class Main {
 
     public static void main(String[] args) {
-//       정수 -> 실수
-        int intNumber = 10;
+//       변수 타입별 크기 순서
+//        byte(1) -> short(2) -> int(4) -> long(8) -> float(4) -> double(8)
 
-        double doubleNumber = (double)intNumber;
-        float floatNumber = (float)intNumber;
+        byte byteNumber = 10;
+        int intNumber = byteNumber;
+        System.out.println(intNumber);
 
-        System.out.println("intNumber -> " + intNumber);
-        System.out.println("doubleNumber -> " + doubleNumber);
-        System.out.println("floatNumber -> " + floatNumber);
-            }
+        char charAlphabet = 'A';
+        intNumber = charAlphabet;
+        System.out.println(intNumber);
+    }
 
 }
