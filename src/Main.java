@@ -5,7 +5,7 @@ public class Main {
         // boolean 변수 선언
         //타입이름 = 값;
 
-     boolean flag = true;
+        boolean a = true;
 
     }
 }
