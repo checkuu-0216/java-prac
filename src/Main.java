@@ -2,24 +2,20 @@
 public class Main {
 
     public static void main(String[] args) {
-//       변수 타입별 크기 순서
-//        byte(1) -> short(2) -> int(4) -> long(8) -> float(4) -> double(8)
+//       작은 크기의 타입이 큰 크기의 타입과 계산될때,
+//        자동으로 큰크기의 타입으로 형변환 한다.
 
-        byte byteNumber = 10;
-        int intNumber = byteNumber;
-        System.out.println(intNumber);
+        int intNUmber = 10;
+        double doubleNumber = 5.5;
+        double result = intNUmber + doubleNumber;
 
-        char charAlphabet = 'A';
-        intNumber = charAlphabet;
-        System.out.println(intNumber);
+        System.out.println(result);
 
-        intNumber = 100;
-        long longNumber = intNumber;
-        System.out.println(longNumber);
+        int iResult = intNUmber / 4;
 
-        intNumber = 200;
-        double doubleNumber = intNumber;
-        System.out.println(doubleNumber);
+        double dResult = intNUmber / 4.0;
+
+        System.out.println(iResult +" / "+ dResult);
     }
 
 }
