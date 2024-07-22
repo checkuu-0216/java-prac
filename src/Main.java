@@ -5,17 +5,11 @@ public class Main {
         // boolean 변수 선언
         //타입이름 = 값;
 
-//        정수형 (byte, short, int, long)
+// 실수형 float(4byte), double(8byte)
+        float floatNumber = 0.123F;
+        double doubleNumber = 0.123123132;
 
-        byte bytenumber = 127; // -128 ~127(1byte) 표현범위 넘어가는 숫자를 입력하면 오류난다 ex)300
-        //        카멜 케이스
-        short shortnumber = 32767; // -32,768 ~ 32,767
-        int intnumber = 2147483647;
-        long longnumber = 2147483647L;
-
-        System.out.println(bytenumber);
-        System.out.println(shortnumber);
-        System.out.println(intnumber);
-        System.out.println(longnumber);
+        System.out.println(floatNumber);
+        System.out.println(doubleNumber);
     }
 }
