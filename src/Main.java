@@ -9,6 +9,6 @@ public class Main {
         char alphabet = 'A';
 
 //        sout 이라고 하면 intellij에서 System.out.println이 탭으로 나온다
-        System.out.println(alphabet);
+        System.out.println(alphabet); 
     }
 }
