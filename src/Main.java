@@ -6,9 +6,11 @@ public class Main {
         // boolean 변수 선언
         //타입이름 = 값;
 
-// 참조형 배열
-        int[] a ={1, 2, 3};
-//참조형 데이터는 주소 값을 대입한다.
-        System.out.println(Arrays.toString(a));
+// 래퍼 클래스 (Wrapper class 변수)
+        int number = 21;
+        Integer num = number; // boxing
+
+//        console.log(num.intValue())
+        System.out.println(num.intValue()); //unboxing
     }
 }
