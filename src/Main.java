@@ -8,10 +8,13 @@ double doubleNumber = 10.101010;
 float floatNumber = 10.1010f;
 //변환(int)
         int intNumber;
+        intNumber = (int)floatNumber;
+        System.out.println("Float type ->" + floatNumber);
+        System.out.println("int type ->" + intNumber);
+//        intNumber = (int)doubleNumber;
+//        System.out.println("Double type " + doubleNumber);
+//        System.out.println("int type " + intNumber);
 
-        intNumber = (int)doubleNumber;
-        System.out.println("Double type " + doubleNumber);
-        System.out.println("int type " + intNumber);
 
             }
 
